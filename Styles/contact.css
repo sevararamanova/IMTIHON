@@ -1,0 +1,63 @@
+@import url(./_min.contact.scss);
+.container {
+  max-width: 1100px;
+}
+
+.contact {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.968), rgba(126, 126, 126, 0.06)), url(../Images/contact-page-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.touch {
+  background-color: rgba(128, 128, 128, 0.243);
+  padding-bottom: 100px;
+}
+
+.hujjat {
+  height: 900px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px;
+}
+.hujjat__touch {
+  width: 300px;
+  height: 500px;
+  margin-left: 30px;
+  background-color: rgba(145, 145, 142, 0.76);
+}
+.hujjat__address {
+  text-align: start;
+}
+.hujjat__address .name {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.hujjat__address .name input {
+  border: none;
+}
+.hujjat__address .name .inputs {
+  border: 1px solid grey;
+  display: inline-block;
+  padding: 6px;
+}
+.hujjat textarea {
+  margin-top: 30px;
+  width: 400px;
+  height: 300px;
+}
+.hujjat .button {
+  padding: 30px 50px;
+  background-color: rgb(156, 10, 10);
+  margin-top: 20px;
+  transition: all 1s;
+  color: white;
+  border: none;
+}
+.hujjat .button:hover {
+  background-color: orange;
+  transform: translate(1.2, 1.2);
+}/*# sourceMappingURL=contact.css.map */
